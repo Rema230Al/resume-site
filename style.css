@@ -43,31 +43,41 @@ padding-right: 2rem;
    font-size: 3.4rem;
    padding: 0 12rem 0 12rem;
 }
-.sect2-div{
+#info{
     display: grid;
     /* align-items: flex-start; */
-    justify-content: space-between;
-     background-color: rgb(33, 2, 37);
+    justify-content: space-between; 
+}
+#sect2{
+    display: flex;
+    background-color: rgb(33, 2, 37);
      border-top: 1rem;
      border-bottom: 1rem;
      border: 0.2rem solid  rgb(53, 40, 62) ;
      min-height: 35rem;
-   
+     color: antiquewhite;
+}
+#sect2 #name{
+margin: 13rem 1rem 0 13rem;
+font-size: 4rem;
 }
 #about{
-    margin: 4rem 0 0 3rem;
+    margin: 2rem 0 0 3rem;
     border-radius: 1rem;
-    min-width: 25rem;
-    max-height: 15em;
+    max-width: 20rem;
+    max-height: 28rem;
     background-color: rgb(53, 40, 62) ;
-    
+    padding-left: 2rem;
+    border:0.2rem solid rgb(74, 56, 87) ;
 }
 #education{
     margin: 3rem 3rem 0 3rem;
     border-radius: 1rem;
-    min-width: 25rem;
-    max-height: 15em;
+    min-width: 20rem;
+    max-height: 18rem;
     background-color: rgb(53, 40, 62) ;
+    padding-left: 2rem;
+    border:0.2rem solid rgb(74, 56, 87) ;
 }
 #projects{
     margin: 0;
@@ -95,6 +105,53 @@ padding-right: 2rem;
     padding-left: 2rem;
     padding-bottom: 1rem;
  
+}
+.project-cards h3{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.project-cards div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 13rem;
+  padding-right: 13rem;
+   
+}
+#git-logo img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.sect4-div{
+    justify-content: center;
+    margin: 0;
+    padding-top: 3rem;
+    background-color: rgb(33, 2, 37);
+    min-height: 35rem;
+}
+.sect4-div h2{
+    padding-left: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 4rem;
+    color: antiquewhite;
+}
+.skills-icon{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills-icon img{
+    width: 6rem;
+    height: 4rem;
+}
+#education:hover{
+    border-color: rgb(152, 100, 189) ;
+}
+#about:hover{
+    border-color: rgb(152, 100, 189) ;
 }
 
 .list-div a:hover{

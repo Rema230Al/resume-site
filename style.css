@@ -43,6 +43,59 @@ padding-right: 2rem;
    font-size: 3.4rem;
    padding: 0 12rem 0 12rem;
 }
+.sect2-div{
+    display: grid;
+    /* align-items: flex-start; */
+    justify-content: space-between;
+     background-color: rgb(33, 2, 37);
+     border-top: 1rem;
+     border-bottom: 1rem;
+     border: 0.2rem solid  rgb(53, 40, 62) ;
+     min-height: 35rem;
+   
+}
+#about{
+    margin: 4rem 0 0 3rem;
+    border-radius: 1rem;
+    min-width: 25rem;
+    max-height: 15em;
+    background-color: rgb(53, 40, 62) ;
+    
+}
+#education{
+    margin: 3rem 3rem 0 3rem;
+    border-radius: 1rem;
+    min-width: 25rem;
+    max-height: 15em;
+    background-color: rgb(53, 40, 62) ;
+}
+#projects{
+    margin: 0;
+    background-color: rgb(33, 2, 37);
+    color: antiquewhite;
+      min-height: 43rem;
+}
+.project-tit{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 4rem;
+}
+.project-field{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 2rem;
+
+}
+.project-cards{
+    border: 0.3rem solid rgba(255, 255, 255, 0.06);
+    border-radius: 1rem;
+    max-height: 20rem;
+    max-width: 35rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+ 
+}
 
 .list-div a:hover{
    

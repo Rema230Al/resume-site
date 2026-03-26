@@ -10,9 +10,11 @@ nav{
    background-color: rgb(33, 2, 37);
    padding: 1rem 1rem;
 }
+
 /* .logo-div img{
     SOOON
 } */
+
 .list-div ul{
 list-style: none;
 display:flex;
@@ -37,6 +39,7 @@ padding-right: 2rem;
     color: antiquewhite;
 }
 .hero-div h1{
+   font-family: 'Playfair Display', serif;
    color: antiquewhite;
    letter-spacing: 1.5px;
    font-weight: 100;
@@ -53,31 +56,61 @@ padding-right: 2rem;
     background-color: rgb(33, 2, 37);
     border-top: 1rem;
     border-bottom: 1rem;
-    border: 0.2rem solid  rgb(53, 40, 62) ;
+    border: 0.2rem solid  rgba(255, 255, 255, 0.06);
     min-height: 40rem;
-    color: antiquewhite;
+     color:antiquewhite;
+}
+#name{
+    letter-spacing: 1.5px;
+   font-weight: 100;
+   font-size: 3.4rem;
+   padding-top: 2rem;
+   font-family: 'Playfair Display', serif;
+}
+#last-name{
+    display: block;
+    margin-left: 12rem;
+   
 }
 #sect2 #name{
 margin: 13rem 1rem 0 13rem;
 font-size: 4rem;
 }
+#info h2{
+    color: rgb(126, 100, 70);
+    font-weight: 1000;
+    font-size: 800;
+}
 #about{
     margin: 2rem 0 0 3rem;
     border-radius: 1rem;
-    max-width: 20rem;
+    max-width: 21rem;
     max-height: 28rem;
-    background-color: rgb(53, 40, 62) ;
-    padding-left: 2rem;
-    border:0.2rem solid rgb(74, 56, 87) ;
+    background-color: rgb(33, 2, 37);
+    padding-left: 1rem;
+    border:0.3rem solid rgba(255, 255, 255, 0.06) ;
 }
 #education{
     margin: 3rem 3rem 0 3rem;
     border-radius: 1rem;
     min-width: 20rem;
     max-height: 18rem;
-    background-color: rgb(53, 40, 62) ;
+    background-color: rgb(33, 2, 37);
     padding-left: 2rem;
-    border:0.2rem solid rgb(74, 56, 87) ;
+    border:0.3rem solid rgba(255, 255, 255, 0.06) ;
+}
+.degrr-div ,.date-div p,.degrr-div p{
+  margin-bottom: 0.5rem;
+}
+.degrr-div p {
+  margin: 0;
+  padding-bottom: 0.5rem;
+  color: rgb(126, 100, 70);
+}
+.date-div p{
+    margin: 0;
+    padding-bottom: 0.5rem;
+    color: rgb(126, 100, 70);
 }
 .sect3-div{
     margin: 0;
@@ -94,6 +127,7 @@ font-size: 4rem;
     padding-bottom: 3rem;
 }
 .project-tit{
+    font-family: 'Playfair Display', serif;
     font-size: 4rem;
     text-align: center;
     font-weight: 400;
@@ -107,7 +141,7 @@ font-size: 4rem;
 .project-cards{
     border: 0.3rem solid rgba(255, 255, 255, 0.06);
     border-radius: 1rem;
-    max-height: 20rem;
+    max-height: 18rem;
     max-width: 35rem;
     padding-left: 1rem;
     padding-bottom: 2rem;
@@ -115,13 +149,22 @@ font-size: 4rem;
  
 }
 .project-cards h3{
+    font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
-    font-weight: 100;
+    font-weight: 800;
     font-weight: 1000;
+    color: rgb(126, 100, 70);
 }
 .project-cards p{
-    font-size: 1rem;
-    
+    font-size: 0.82rem;
+    /* color: rgb(211, 186, 153); */
+     color:antiquewhite;
+        font-family: 'Playfair Display', serif;
+     
+}
+.project-cards span{
+    /* color: rgb(211, 186, 153); */
+     color:antiquewhite;
 }
 .project-cards div{
     display: flex;
@@ -133,6 +176,7 @@ font-size: 4rem;
 }
 .project-cards a{
     text-decoration: none;
+     color: rgb(135, 125, 125);
 }
 .git-logo img{
     width: 1.5rem;
@@ -143,15 +187,17 @@ font-size: 4rem;
     margin: 0;
     padding-top: 3rem;
     background-color: rgb(33, 2, 37);
-    min-height: 30rem;
+    min-height: 35rem;
 }
 .sect4-div h2{
+    font-family: 'Playfair Display', serif;
     padding-left: 2rem;
     font-size: 3rem;
     text-align: center;
     font-weight: 400;
-    padding-top: 4rem;
+    padding-top: 1rem;
     color: antiquewhite;
+    padding-bottom: 5rem;
 }
 .skills-icon{
     margin: 0;
@@ -164,7 +210,7 @@ font-size: 4rem;
     height: 4rem;
 }
 #contact{
-     min-height: 30rem;
+     min-height: 40rem;
      border: 2rem;
      background-color: rgb(33, 2, 37);
      padding: 0;
@@ -186,13 +232,18 @@ font-size: 4rem;
    color:antiquewhite;
 }
 .contact-div span{
-margin-left: 1rem;
+  margin-left: 1rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+   color: rgb(211, 186, 153);
 }
 .contact-div a{
     text-decoration: none;
     padding-left: 1rem;
+      color: rgb(135, 125, 125);
 }
 #contact h2{
+    font-family: 'Playfair Display', serif;
     font-size: 3rem;
     text-align: center;
     font-weight: 400;

@@ -1,0 +1,355 @@
+/* =========================
+   992px
+========================= */
+@media (max-width: 992px){
+
+    nav{
+        padding: 1rem 1.2rem;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .list-div ul{
+        gap: 1.2rem;
+        padding-right: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero-div{
+        min-height: 24rem;
+        padding-top: 9rem;
+        padding-bottom: 2rem;
+    }
+
+    .hero-div h1{
+        font-size: 2.7rem;
+        padding: 0 3rem;
+        line-height: 1.25;
+    }
+
+    #sect2{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        min-height: auto;
+        padding: 2rem 1rem 3rem 1rem;
+    }
+
+    #sect2 #name{
+        margin: 0 auto 2rem auto;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    #last-name{
+        margin-left: 0;
+    }
+
+    #info{
+        width: 100%;
+        justify-content: center;
+    }
+
+    #about,
+    #education{
+        width: 100%;
+        max-width: 40rem;
+        min-width: auto;
+        max-height: none;
+        margin: 1rem auto;
+        padding: 1.2rem;
+    }
+
+    .project-tit{
+        font-size: 3.2rem;
+    }
+
+    .project-field{
+        grid-template-columns: 1fr;
+        padding: 0 1.5rem;
+        gap: 1rem;
+    }
+
+    .project-cards{
+        max-width: 100%;
+        max-height: none;
+        padding: 1rem 1rem 1.5rem 1rem;
+        margin-bottom: 0;
+    }
+
+    .project-cards div{
+        justify-content: space-between;
+        gap: 1rem;
+        padding-right: 0;
+        flex-wrap: wrap;
+    }
+
+    .sect4-div{
+        min-height: auto;
+        padding-bottom: 3rem;
+    }
+
+    .sect4-div h2{
+        font-size: 2.7rem;
+        padding-bottom: 3rem;
+    }
+
+    .skills-icon{
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 0 1rem;
+    }
+
+    .skills-icon img{
+        width: 5rem;
+        height: auto;
+    }
+
+    #contact{
+        min-height: auto;
+        padding-bottom: 3rem;
+    }
+
+    #contact h2{
+        font-size: 2.7rem;
+    }
+
+    .contact-div{
+        width: 100%;
+        max-width: 35rem;
+        height: auto;
+        margin: 0 auto 1rem auto;
+        padding: 1rem;
+    }
+}
+
+/* =========================
+   768px
+========================= */
+@media (max-width: 768px){
+
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .logo-div{
+        text-align: center;
+    }
+
+    .list-div ul{
+        gap: 1rem;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .list-div a{
+        font-size: 0.95rem;
+    }
+
+    .hero-div{
+        min-height: 20rem;
+        padding-top: 6.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .hero-div h1{
+        font-size: 2.1rem;
+        padding: 0 1.5rem;
+        line-height: 1.3;
+    }
+
+    #sect2{
+        padding: 1.5rem 1rem 2rem 1rem;
+    }
+
+    #sect2 #name{
+        font-size: 2.4rem;
+        line-height: 1.2;
+    }
+
+    #about,
+    #education{
+        padding: 1rem;
+        border-width: 0.2rem;
+    }
+
+    #info h2{
+        font-size: 2rem;
+    }
+
+    .project-tit{
+        font-size: 2.7rem;
+        padding-top: 1.5rem;
+    }
+
+    .project-field{
+        padding: 0 1rem;
+    }
+
+    .project-cards h3{
+        font-size: 1.3rem;
+    }
+
+    .project-cards p{
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+
+    .project-cards div{
+        align-items: flex-start;
+    }
+
+    .sect4-div h2,
+    #contact h2{
+        font-size: 2.4rem;
+    }
+
+    .skills-icon img{
+        width: 4.3rem;
+        height: auto;
+    }
+
+    .contact-div{
+        max-width: 90%;
+        font-size: 1rem;
+    }
+
+    .contact-div span{
+        margin-left: 0.5rem;
+    }
+
+    .contact-div a{
+        padding-left: 0.5rem;
+    }
+}
+/* =========================
+   576px
+========================= */
+@media (max-width: 576px){
+
+    nav{
+        padding: 0.8rem;
+    }
+
+    .list-div ul{
+        gap: 0.8rem;
+    }
+
+    .list-div a{
+        font-size: 0.85rem;
+    }
+
+    .hero-div{
+        min-height: 16rem;
+        padding-top: 5rem;
+    }
+
+    .hero-div h1{
+        font-size: 1.6rem;
+        padding: 0 1rem;
+        letter-spacing: 0.5px;
+    }
+
+    #sect2 #name{
+        font-size: 1.9rem;
+    }
+
+    #last-name{
+        margin-left: 0;
+    }
+
+    #about,
+    #education{
+        margin: 0.8rem auto;
+        width: 92%;
+    }
+
+    .degrr-div,
+    .date-div{
+        display: block;
+    }
+
+    .project-tit,
+    .sect4-div h2,
+    #contact h2{
+        font-size: 2rem;
+    }
+
+    .project-cards{
+        width: 100%;
+    }
+
+    .project-cards div{
+        display: block;
+        padding-right: 0;
+    }
+
+    .project-cards span{
+        display: block;
+        margin-top: 0.4rem;
+    }
+
+    .project-cards a{
+        display: inline-block;
+        margin-top: 0.7rem;
+    }
+
+    .skills-icon{
+        gap: 0.8rem;
+    }
+
+    .skills-icon img{
+        width: 3.8rem;
+    }
+
+    .contact-div{
+        width: 92%;
+        font-size: 0.92rem;
+        padding: 0.9rem;
+    }
+
+    .contact-div a{
+        word-break: break-word;
+    }
+}
+
+/* =========================
+   375px
+========================= */
+@media (max-width: 375px){
+
+    .hero-div h1{
+        font-size: 1.35rem;
+        padding: 0 0.7rem;
+    }
+
+    #sect2 #name{
+        font-size: 1.6rem;
+    }
+
+    .project-tit,
+    .sect4-div h2,
+    #contact h2{
+        font-size: 1.7rem;
+    }
+
+    .project-cards h3{
+        font-size: 1.1rem;
+    }
+
+    .project-cards p{
+        font-size: 0.8rem;
+    }
+
+    .list-div a{
+        font-size: 0.78rem;
+    }
+
+    .contact-div{
+        font-size: 0.85rem;
+    }
+}

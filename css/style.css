@@ -1,6 +1,10 @@
+html{
+    scroll-behavior:smooth;
+}
 body{
    
     margin: 0;
+    font-family: 'Playfair Display', serif;
 }
 
 nav{
@@ -16,11 +20,13 @@ nav{
 } */
 
 .list-div ul{
-list-style: none;
-display:flex;
-gap: 2rem;
-padding-right: 2rem;
+    list-style: none;
+    display:flex;
+    gap: 2rem;
+    padding-right: 2rem;
+   
 }
+
 .list-div a{
     text-decoration: none;
     color: antiquewhite;
@@ -145,7 +151,8 @@ font-size: 4rem;
     max-width: 35rem;
     padding-left: 1rem;
     padding-bottom: 2rem;
-     margin-bottom: 1rem
+    margin-bottom: 1rem
+    
  
 }
 .project-cards h3{
@@ -253,6 +260,12 @@ font-size: 4rem;
 }
 
 
+/* .list-div li:focus{
+      border:1rem solid rgba(255, 255, 255, 0.06) ;
+     background-color:rgba(255, 255, 255, 0.06) ;
+     border-radius: 0.6rem;
+    height: 0.5rem;
+} */
 
 /* ---------- */
 #education:hover{
@@ -260,6 +273,12 @@ font-size: 4rem;
 }
 #about:hover{
     border-color: rgb(152, 100, 189) ;
+}
+.project-cards:hover{
+     border-color: rgb(152, 100, 189) ;
+}
+.contact-div:hover{
+     border-color: rgb(152, 100, 189) ;
 }
 
 .list-div a:hover{

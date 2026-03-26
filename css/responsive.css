@@ -276,7 +276,10 @@
     }
 
     .project-cards{
-        width: 100%;
+        width: 92%;
+        max-width: 92%;
+        margin: 0 auto;
+        padding: 0.9rem;
     }
 
     .project-cards div{
